@@ -20,6 +20,7 @@
 		B577F6421FF03497007F1B84 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F6411FF03497007F1B84 /* LoginVC.swift */; };
 		B577F6441FF034E9007F1B84 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F6431FF034E9007F1B84 /* InsetTextField.swift */; };
 		B577F6461FF03812007F1B84 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F6451FF03812007F1B84 /* ShadowView.swift */; };
+		B577F6481FF07032007F1B84 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F6471FF07032007F1B84 /* AuthService.swift */; };
 		E004824FEDF6A26A64F1C8D4 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2741FF6AC9D48CAB31FE58 /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		B577F6411FF03497007F1B84 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B577F6431FF034E9007F1B84 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		B577F6451FF03812007F1B84 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		B577F6471FF07032007F1B84 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		FD2741FF6AC9D48CAB31FE58 /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				B577F63B1FF0187C007F1B84 /* DataService.swift */,
+				B577F6471FF07032007F1B84 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				B577F6441FF034E9007F1B84 /* InsetTextField.swift in Sources */,
 				B5730A111FF013B100266E0C /* AppDelegate.swift in Sources */,
 				B5730A131FF013B100266E0C /* FirstViewController.swift in Sources */,
+				B577F6481FF07032007F1B84 /* AuthService.swift in Sources */,
 				B577F63E1FF02AB2007F1B84 /* terminalStyleLabel.swift in Sources */,
 				B577F63C1FF0187C007F1B84 /* DataService.swift in Sources */,
 			);
