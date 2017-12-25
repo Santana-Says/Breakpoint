@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B5730A111FF013B100266E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5730A101FF013B100266E0C /* AppDelegate.swift */; };
-		B5730A131FF013B100266E0C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5730A121FF013B100266E0C /* FirstViewController.swift */; };
-		B5730A151FF013B100266E0C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5730A141FF013B100266E0C /* SecondViewController.swift */; };
+		B5730A131FF013B100266E0C /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5730A121FF013B100266E0C /* FeedVC.swift */; };
+		B5730A151FF013B100266E0C /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5730A141FF013B100266E0C /* GroupsVC.swift */; };
 		B5730A181FF013B100266E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5730A161FF013B100266E0C /* Main.storyboard */; };
 		B5730A1A1FF013B100266E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5730A191FF013B100266E0C /* Assets.xcassets */; };
 		B5730A1D1FF013B100266E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5730A1B1FF013B100266E0C /* LaunchScreen.storyboard */; };
@@ -29,8 +29,8 @@
 		2B867ADE1E6142405A2CD8DB /* Pods-Breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		B5730A0D1FF013B100266E0C /* Breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5730A101FF013B100266E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5730A121FF013B100266E0C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B5730A141FF013B100266E0C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B5730A121FF013B100266E0C /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		B5730A141FF013B100266E0C /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		B5730A171FF013B100266E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5730A191FF013B100266E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5730A1C1FF013B100266E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,8 +102,8 @@
 				B5730A251FF0141C00266E0C /* Views */,
 				B5730A241FF0141600266E0C /* Controllers */,
 				B5730A101FF013B100266E0C /* AppDelegate.swift */,
-				B5730A121FF013B100266E0C /* FirstViewController.swift */,
-				B5730A141FF013B100266E0C /* SecondViewController.swift */,
+				B5730A121FF013B100266E0C /* FeedVC.swift */,
+				B5730A141FF013B100266E0C /* GroupsVC.swift */,
 				B5730A161FF013B100266E0C /* Main.storyboard */,
 				B5730A191FF013B100266E0C /* Assets.xcassets */,
 				B5730A1B1FF013B100266E0C /* LaunchScreen.storyboard */,
@@ -281,11 +281,11 @@
 			files = (
 				B577F6461FF03812007F1B84 /* ShadowView.swift in Sources */,
 				B577F6401FF03467007F1B84 /* AuthVC.swift in Sources */,
-				B5730A151FF013B100266E0C /* SecondViewController.swift in Sources */,
+				B5730A151FF013B100266E0C /* GroupsVC.swift in Sources */,
 				B577F6421FF03497007F1B84 /* LoginVC.swift in Sources */,
 				B577F6441FF034E9007F1B84 /* InsetTextField.swift in Sources */,
 				B5730A111FF013B100266E0C /* AppDelegate.swift in Sources */,
-				B5730A131FF013B100266E0C /* FirstViewController.swift in Sources */,
+				B5730A131FF013B100266E0C /* FeedVC.swift in Sources */,
 				B577F6481FF07032007F1B84 /* AuthService.swift in Sources */,
 				B577F63E1FF02AB2007F1B84 /* terminalStyleLabel.swift in Sources */,
 				B577F63C1FF0187C007F1B84 /* DataService.swift in Sources */,
