@@ -13,7 +13,6 @@
 		B5730A181FF013B100266E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5730A161FF013B100266E0C /* Main.storyboard */; };
 		B5730A1A1FF013B100266E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5730A191FF013B100266E0C /* Assets.xcassets */; };
 		B5730A1D1FF013B100266E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5730A1B1FF013B100266E0C /* LaunchScreen.storyboard */; };
-		B5730A2A1FF016DF00266E0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5730A291FF016DF00266E0C /* GoogleService-Info.plist */; };
 		B577F63C1FF0187C007F1B84 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F63B1FF0187C007F1B84 /* DataService.swift */; };
 		B577F63E1FF02AB2007F1B84 /* terminalStyleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F63D1FF02AB2007F1B84 /* terminalStyleLabel.swift */; };
 		B577F6401FF03467007F1B84 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F63F1FF03467007F1B84 /* AuthVC.swift */; };
@@ -21,6 +20,7 @@
 		B577F6441FF034E9007F1B84 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F6431FF034E9007F1B84 /* InsetTextField.swift */; };
 		B577F6461FF03812007F1B84 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F6451FF03812007F1B84 /* ShadowView.swift */; };
 		B577F6481FF07032007F1B84 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F6471FF07032007F1B84 /* AuthService.swift */; };
+		B577F64A1FF148CB007F1B84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B577F6491FF148CA007F1B84 /* GoogleService-Info.plist */; };
 		E004824FEDF6A26A64F1C8D4 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2741FF6AC9D48CAB31FE58 /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +35,6 @@
 		B5730A191FF013B100266E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5730A1C1FF013B100266E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5730A1E1FF013B100266E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5730A291FF016DF00266E0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B577F63B1FF0187C007F1B84 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B577F63D1FF02AB2007F1B84 /* terminalStyleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terminalStyleLabel.swift; sourceTree = "<group>"; };
 		B577F63F1FF03467007F1B84 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		B577F6431FF034E9007F1B84 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		B577F6451FF03812007F1B84 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		B577F6471FF07032007F1B84 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B577F6491FF148CA007F1B84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		FD2741FF6AC9D48CAB31FE58 /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,7 +108,7 @@
 				B5730A191FF013B100266E0C /* Assets.xcassets */,
 				B5730A1B1FF013B100266E0C /* LaunchScreen.storyboard */,
 				B5730A1E1FF013B100266E0C /* Info.plist */,
-				B5730A291FF016DF00266E0C /* GoogleService-Info.plist */,
+				B577F6491FF148CA007F1B84 /* GoogleService-Info.plist */,
 			);
 			path = Breakpoint;
 			sourceTree = "<group>";
@@ -218,7 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5730A1D1FF013B100266E0C /* LaunchScreen.storyboard in Resources */,
-				B5730A2A1FF016DF00266E0C /* GoogleService-Info.plist in Resources */,
+				B577F64A1FF148CB007F1B84 /* GoogleService-Info.plist in Resources */,
 				B5730A1A1FF013B100266E0C /* Assets.xcassets in Resources */,
 				B5730A181FF013B100266E0C /* Main.storyboard in Resources */,
 			);

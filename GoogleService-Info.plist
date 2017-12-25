@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>26743991106-ic7kka7shfs1vpmkaejfn02pqffmqid7.apps.googleusercontent.com</string>
+	<string>325057973715-s52o7b5j5ogeiq06hf5tn7j4hdqpjcl6.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.26743991106-ic7kka7shfs1vpmkaejfn02pqffmqid7</string>
+	<string>com.googleusercontent.apps.325057973715-s52o7b5j5ogeiq06hf5tn7j4hdqpjcl6</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCHXuBkDAi5AUaX-_3MR50GwazgsOOJOyE</string>
+	<string>AIzaSyBn5_ILEGXnQI4kgHjJaPl2eYK8gTkkN_A</string>
 	<key>GCM_SENDER_ID</key>
-	<string>26743991106</string>
+	<string>325057973715</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>Square-Built.Smack</string>
+	<string>com.Square-Built.Breakpoint</string>
 	<key>PROJECT_ID</key>
-	<string>smack-chatty</string>
+	<string>breakpoint-1fa9c</string>
 	<key>STORAGE_BUCKET</key>
-	<string>smack-chatty.appspot.com</string>
+	<string>breakpoint-1fa9c.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:26743991106:ios:59d677d5835a614d</string>
+	<string>1:325057973715:ios:e72c11df1a4c1dbc</string>
 	<key>DATABASE_URL</key>
-	<string>https://smack-chatty.firebaseio.com</string>
+	<string>https://breakpoint-1fa9c.firebaseio.com</string>
 </dict>
 </plist>
