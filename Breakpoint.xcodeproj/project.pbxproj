@@ -24,6 +24,7 @@
 		B577F64C1FF34A2B007F1B84 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F64B1FF34A2B007F1B84 /* MeVC.swift */; };
 		B577F64E1FF350BB007F1B84 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F64D1FF350BB007F1B84 /* CreatePostVC.swift */; };
 		B577F6501FF3548B007F1B84 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F64F1FF3548B007F1B84 /* UIViewExt.swift */; };
+		B577F6521FF35EC8007F1B84 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F6511FF35EC8007F1B84 /* FeedCell.swift */; };
 		E004824FEDF6A26A64F1C8D4 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2741FF6AC9D48CAB31FE58 /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		B577F64B1FF34A2B007F1B84 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		B577F64D1FF350BB007F1B84 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		B577F64F1FF3548B007F1B84 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		B577F6511FF35EC8007F1B84 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		FD2741FF6AC9D48CAB31FE58 /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 				B577F63D1FF02AB2007F1B84 /* terminalStyleLabel.swift */,
 				B577F6431FF034E9007F1B84 /* InsetTextField.swift */,
 				B577F6451FF03812007F1B84 /* ShadowView.swift */,
+				B577F6511FF35EC8007F1B84 /* FeedCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				B577F6421FF03497007F1B84 /* LoginVC.swift in Sources */,
 				B577F6441FF034E9007F1B84 /* InsetTextField.swift in Sources */,
 				B5730A111FF013B100266E0C /* AppDelegate.swift in Sources */,
+				B577F6521FF35EC8007F1B84 /* FeedCell.swift in Sources */,
 				B5730A131FF013B100266E0C /* FeedVC.swift in Sources */,
 				B577F64C1FF34A2B007F1B84 /* MeVC.swift in Sources */,
 				B577F64E1FF350BB007F1B84 /* CreatePostVC.swift in Sources */,
