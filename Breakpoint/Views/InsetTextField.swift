@@ -38,6 +38,8 @@ class InsetTextField: UITextField {
         let placeholder = NSAttributedString(string: self.placeholder!, attributes: [NSAttributedStringKey.foregroundColor: #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)])
         
         attributedPlaceholder = placeholder
+        backgroundColor = #colorLiteral(red: 0.1607843137, green: 0.168627451, blue: 0.2039215686, alpha: 0.8536761558)
+        borderStyle = .line
     }
 
 }
