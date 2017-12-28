@@ -25,6 +25,7 @@
 		B577F64E1FF350BB007F1B84 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F64D1FF350BB007F1B84 /* CreatePostVC.swift */; };
 		B577F6501FF3548B007F1B84 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F64F1FF3548B007F1B84 /* UIViewExt.swift */; };
 		B577F6521FF35EC8007F1B84 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F6511FF35EC8007F1B84 /* FeedCell.swift */; };
+		B577F6541FF47D73007F1B84 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F6531FF47D73007F1B84 /* Message.swift */; };
 		E004824FEDF6A26A64F1C8D4 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2741FF6AC9D48CAB31FE58 /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		B577F64D1FF350BB007F1B84 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		B577F64F1FF3548B007F1B84 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		B577F6511FF35EC8007F1B84 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		B577F6531FF47D73007F1B84 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		FD2741FF6AC9D48CAB31FE58 /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -110,8 +112,6 @@
 				B5730A251FF0141C00266E0C /* Views */,
 				B5730A241FF0141600266E0C /* Controllers */,
 				B5730A101FF013B100266E0C /* AppDelegate.swift */,
-				B5730A121FF013B100266E0C /* FeedVC.swift */,
-				B5730A141FF013B100266E0C /* GroupsVC.swift */,
 				B5730A161FF013B100266E0C /* Main.storyboard */,
 				B5730A191FF013B100266E0C /* Assets.xcassets */,
 				B5730A1B1FF013B100266E0C /* LaunchScreen.storyboard */,
@@ -125,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				B577F63F1FF03467007F1B84 /* AuthVC.swift */,
+				B5730A121FF013B100266E0C /* FeedVC.swift */,
+				B5730A141FF013B100266E0C /* GroupsVC.swift */,
 				B577F6411FF03497007F1B84 /* LoginVC.swift */,
 				B577F64B1FF34A2B007F1B84 /* MeVC.swift */,
 				B577F64D1FF350BB007F1B84 /* CreatePostVC.swift */,
@@ -146,6 +148,7 @@
 		B5730A261FF0142900266E0C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B577F6531FF47D73007F1B84 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				B577F64C1FF34A2B007F1B84 /* MeVC.swift in Sources */,
 				B577F64E1FF350BB007F1B84 /* CreatePostVC.swift in Sources */,
 				B577F6481FF07032007F1B84 /* AuthService.swift in Sources */,
+				B577F6541FF47D73007F1B84 /* Message.swift in Sources */,
 				B577F63E1FF02AB2007F1B84 /* terminalStyleLabel.swift in Sources */,
 				B577F63C1FF0187C007F1B84 /* DataService.swift in Sources */,
 			);
