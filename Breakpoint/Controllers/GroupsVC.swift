@@ -12,6 +12,9 @@ class GroupsVC: UIViewController {
     
     //Outlets
     @IBOutlet weak var groupsTableView: UITableView!
+    
+    //Variables
+    var groupsArray = [Group]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +23,17 @@ class GroupsVC: UIViewController {
         groupsTableView.dataSource = self
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        //listens for any changes on firebase
+        DataService.instance.REF_GROUPS.observe(.value) { (snapshot) in
+            DataService.instance.getAllGroups { (usersGroups) in
+                self.groupsArray = usersGroups
+                self.groupsTableView.reloadData()
+            }
+        }
+    }
 
 }
 
@@ -29,14 +43,15 @@ extension GroupsVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return groupsArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = groupsTableView.dequeueReusableCell(withIdentifier: "GroupCell") as? GroupCell else {
             return UITableViewCell()
         }
-        cell.configCell(title: "Nerd Herd", description: "Nerd Movies", memberCount: 3)
+        let group = groupsArray[indexPath.row]
+        cell.configCell(title: group.groupTitle, description: group.groupDesc, memberCount: group.memberCount)
         
         return cell
     }
