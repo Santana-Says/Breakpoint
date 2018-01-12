@@ -334,7 +334,7 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="0.8536761558" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="0.8536761558" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="kt0-xr-33e" firstAttribute="top" secondItem="zLS-f3-FXt" secondAttribute="bottom" id="9i0-zp-C1o"/>
                             <constraint firstItem="zLS-f3-FXt" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" id="MpL-DJ-TA1"/>
@@ -595,7 +595,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="0.8536761558" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="315" id="4WI-bg-sJu"/>
                                     <constraint firstItem="3Ah-Ur-uSc" firstAttribute="centerX" secondItem="K8i-OX-1TZ" secondAttribute="centerX" id="7rU-wI-QOM"/>
@@ -606,7 +606,7 @@
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9ZP-rU-dbU">
                                 <rect key="frame" x="0.0" y="385" width="414" height="302"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="50" id="dGw-MZ-c9E">
                                         <rect key="frame" x="0.0" y="28" width="414" height="50"/>
@@ -648,7 +648,7 @@
         <!--Group FeedVC-->
         <scene sceneID="x5d-a6-CHQ">
             <objects>
-                <viewController id="2R9-I9-Bj2" customClass="GroupFeedVC" customModule="Breakpoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GroupFeedVC" id="2R9-I9-Bj2" customClass="GroupFeedVC" customModule="Breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tof-49-JjR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -738,8 +738,8 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@bp.com, j@s.com, m@s.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="68e-d6-qHC">
-                                <rect key="frame" x="0.0" y="78" width="414" height="16.333333333333329"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@bp.com, j@s.com, m@s.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="68e-d6-qHC">
+                                <rect key="frame" x="20" y="78" width="374" height="16.333333333333329"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -778,7 +778,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="0.8536761558" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="N0B-c3-8I5" firstAttribute="trailing" secondItem="kik-YB-5Ty" secondAttribute="trailing" id="1A8-Jk-vie"/>
                             <constraint firstItem="gVe-Pw-1O3" firstAttribute="trailing" secondItem="N0B-c3-8I5" secondAttribute="trailing" id="4gq-IO-6Tv"/>
@@ -789,8 +789,8 @@
                             <constraint firstItem="SUr-Kl-ULF" firstAttribute="top" secondItem="gVe-Pw-1O3" secondAttribute="bottom" id="gPY-R4-u9d"/>
                             <constraint firstItem="kik-YB-5Ty" firstAttribute="leading" secondItem="tof-49-JjR" secondAttribute="leading" id="hdZ-Td-G3w"/>
                             <constraint firstAttribute="bottom" secondItem="SUr-Kl-ULF" secondAttribute="bottom" id="jL5-g6-gUa"/>
-                            <constraint firstItem="68e-d6-qHC" firstAttribute="leading" secondItem="N0B-c3-8I5" secondAttribute="leading" id="mRK-r2-R9y"/>
-                            <constraint firstItem="N0B-c3-8I5" firstAttribute="trailing" secondItem="68e-d6-qHC" secondAttribute="trailing" id="mUe-ug-HP6"/>
+                            <constraint firstItem="68e-d6-qHC" firstAttribute="leading" secondItem="N0B-c3-8I5" secondAttribute="leading" constant="20" id="mRK-r2-R9y"/>
+                            <constraint firstItem="N0B-c3-8I5" firstAttribute="trailing" secondItem="68e-d6-qHC" secondAttribute="trailing" constant="20" id="mUe-ug-HP6"/>
                             <constraint firstItem="SUr-Kl-ULF" firstAttribute="leading" secondItem="N0B-c3-8I5" secondAttribute="leading" id="oob-55-2rc"/>
                             <constraint firstItem="68e-d6-qHC" firstAttribute="top" secondItem="kik-YB-5Ty" secondAttribute="bottom" constant="8" id="pVO-ZT-uYC"/>
                         </constraints>
@@ -807,7 +807,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="759-fd-Qrv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1460.8695652173915" y="721.46739130434787"/>
+            <point key="canvasLocation" x="1554" y="699"/>
         </scene>
         <!--AuthVC-->
         <scene sceneID="ypL-At-ymx">
