@@ -30,6 +30,7 @@
 		B577F6581FF49F5B007F1B84 /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B577F6571FF49F5B007F1B84 /* CreateGroupVC.swift */; };
 		B5C94161200926A2007B23A1 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C94160200926A2007B23A1 /* GroupFeedCell.swift */; };
 		B5C9416320092727007B23A1 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C9416220092727007B23A1 /* GroupFeedVC.swift */; };
+		B5C941652009B586007B23A1 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C941642009B586007B23A1 /* UIViewControllerExt.swift */; };
 		B5CB785A20070F4D005910A3 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CB785920070F4D005910A3 /* GroupCell.swift */; };
 		B5CB785C20071387005910A3 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CB785B20071387005910A3 /* Group.swift */; };
 		E004824FEDF6A26A64F1C8D4 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2741FF6AC9D48CAB31FE58 /* Pods_Breakpoint.framework */; };
@@ -63,6 +64,7 @@
 		B577F6571FF49F5B007F1B84 /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
 		B5C94160200926A2007B23A1 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
 		B5C9416220092727007B23A1 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
+		B5C941642009B586007B23A1 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		B5CB785920070F4D005910A3 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		B5CB785B20071387005910A3 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		FD2741FF6AC9D48CAB31FE58 /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				B577F64F1FF3548B007F1B84 /* UIViewExt.swift */,
+				B5C941642009B586007B23A1 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				B5730A111FF013B100266E0C /* AppDelegate.swift in Sources */,
 				B577F6521FF35EC8007F1B84 /* FeedCell.swift in Sources */,
 				B5CB785A20070F4D005910A3 /* GroupCell.swift in Sources */,
+				B5C941652009B586007B23A1 /* UIViewControllerExt.swift in Sources */,
 				B577F6581FF49F5B007F1B84 /* CreateGroupVC.swift in Sources */,
 				B5730A131FF013B100266E0C /* FeedVC.swift in Sources */,
 				B577F64C1FF34A2B007F1B84 /* MeVC.swift in Sources */,
