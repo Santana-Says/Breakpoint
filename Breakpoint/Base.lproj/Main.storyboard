@@ -688,7 +688,7 @@
                                 <rect key="frame" x="0.0" y="102.33333333333331" width="414" height="573.66666666666674"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedCell" rowHeight="100" id="QbE-yg-ZhF" customClass="GroupFeedCell" customModule="Breakpoint" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GroupFeedCell" rowHeight="100" id="QbE-yg-ZhF" customClass="GroupFeedCell" customModule="Breakpoint" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QbE-yg-ZhF" id="7hS-5e-l7o">
@@ -798,11 +798,12 @@
                     </view>
                     <connections>
                         <outlet property="groupTitleLbl" destination="RD7-nM-ZRQ" id="SnO-eA-Ar2"/>
+                        <outlet property="mainView" destination="tof-49-JjR" id="5ra-dW-V8J"/>
                         <outlet property="membersLbl" destination="68e-d6-qHC" id="Ir1-FF-HK5"/>
-                        <outlet property="messageTextField" destination="9mE-Mk-d8C" id="Rei-Hz-264"/>
+                        <outlet property="messageTextField" destination="pOY-zy-w8p" id="L0v-C0-Zev"/>
                         <outlet property="sendBtn" destination="IkD-we-DWc" id="pKC-lF-PFK"/>
                         <outlet property="sendBtnView" destination="SUr-Kl-ULF" id="Igc-HB-heV"/>
-                        <outlet property="tableView" destination="gVe-Pw-1O3" id="Udn-O1-Qut"/>
+                        <outlet property="tableView" destination="gVe-Pw-1O3" id="3H4-qF-wnx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="759-fd-Qrv" userLabel="First Responder" sceneMemberID="firstResponder"/>
