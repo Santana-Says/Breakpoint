@@ -369,7 +369,6 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JU0-rb-4Gp">
                                         <rect key="frame" x="341" y="30" width="53" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="53" id="lgm-in-S7l"/>
                                             <constraint firstAttribute="height" constant="30" id="mnu-kh-lV4"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
@@ -406,6 +405,7 @@
                                     <constraint firstItem="35w-cL-1pk" firstAttribute="centerX" secondItem="QXg-BI-yqX" secondAttribute="centerX" id="Y9f-z6-ruW"/>
                                     <constraint firstItem="YQv-RX-JMh" firstAttribute="centerY" secondItem="35w-cL-1pk" secondAttribute="centerY" id="cz6-Q4-jqR"/>
                                     <constraint firstItem="YQv-RX-JMh" firstAttribute="leading" secondItem="QXg-BI-yqX" secondAttribute="leading" constant="20" id="fSk-vl-Kz7"/>
+                                    <constraint firstItem="JU0-rb-4Gp" firstAttribute="leading" secondItem="35w-cL-1pk" secondAttribute="trailing" constant="79.329999999999998" id="gLV-tR-VUT"/>
                                     <constraint firstItem="JU0-rb-4Gp" firstAttribute="top" secondItem="QXg-BI-yqX" secondAttribute="top" constant="30" id="psI-hr-FU6"/>
                                 </constraints>
                             </view>
@@ -936,10 +936,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwM-IY-6WS">
-                                <rect key="frame" x="167" y="251" width="80" height="33"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="Zka-Ak-Jje"/>
-                                </constraints>
+                                <rect key="frame" x="169" y="251" width="76" height="33"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                 <state key="normal" title="SIGN IN">
                                     <color key="titleColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -985,9 +982,10 @@
                             <constraint firstItem="7l0-ie-0dt" firstAttribute="leading" secondItem="90p-kQ-1Rj" secondAttribute="leading" constant="20" id="5KI-qL-RG0"/>
                             <constraint firstItem="90p-kQ-1Rj" firstAttribute="trailing" secondItem="mVJ-e8-lRU" secondAttribute="trailing" constant="40" id="KO8-89-wZz"/>
                             <constraint firstItem="mVJ-e8-lRU" firstAttribute="top" secondItem="7l0-ie-0dt" secondAttribute="bottom" constant="20" id="Kmf-jl-tuE"/>
+                            <constraint firstItem="90p-kQ-1Rj" firstAttribute="trailing" secondItem="IwM-IY-6WS" secondAttribute="trailing" constant="169" id="Xzv-Oa-VSs"/>
+                            <constraint firstItem="IwM-IY-6WS" firstAttribute="leading" secondItem="90p-kQ-1Rj" secondAttribute="leading" constant="169" id="c3t-ne-0Yq"/>
                             <constraint firstItem="mVJ-e8-lRU" firstAttribute="leading" secondItem="90p-kQ-1Rj" secondAttribute="leading" constant="40" id="dKB-0X-pxM"/>
                             <constraint firstItem="7l0-ie-0dt" firstAttribute="top" secondItem="90p-kQ-1Rj" secondAttribute="top" id="k6r-Ec-smg"/>
-                            <constraint firstItem="IwM-IY-6WS" firstAttribute="centerX" secondItem="bgj-a4-VuL" secondAttribute="centerX" id="lnc-Cd-DfL"/>
                             <constraint firstItem="IwM-IY-6WS" firstAttribute="top" secondItem="mVJ-e8-lRU" secondAttribute="bottom" constant="20" id="zDJ-E1-iHx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="90p-kQ-1Rj"/>

@@ -65,6 +65,7 @@
 		B5C94160200926A2007B23A1 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
 		B5C9416220092727007B23A1 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
 		B5C941642009B586007B23A1 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		B5C94166200A5912007B23A1 /* Breakpoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Breakpoint.entitlements; sourceTree = "<group>"; };
 		B5CB785920070F4D005910A3 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		B5CB785B20071387005910A3 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		FD2741FF6AC9D48CAB31FE58 /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +121,7 @@
 		B5730A0F1FF013B100266E0C /* Breakpoint */ = {
 			isa = PBXGroup;
 			children = (
+				B5C94166200A5912007B23A1 /* Breakpoint.entitlements */,
 				B5730A281FF0147D00266E0C /* Services */,
 				B5730A271FF0145300266E0C /* Extensions */,
 				B5730A261FF0142900266E0C /* Models */,
@@ -227,6 +229,11 @@
 					B5730A0C1FF013B100266E0C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -474,6 +481,7 @@
 			baseConfigurationReference = 2B867ADE1E6142405A2CD8DB /* Pods-Breakpoint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Breakpoint/Breakpoint.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PD94K2S3RY;
 				INFOPLIST_FILE = Breakpoint/Info.plist;
@@ -490,6 +498,7 @@
 			baseConfigurationReference = 17C553A68445E0EFEEE49429 /* Pods-Breakpoint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Breakpoint/Breakpoint.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PD94K2S3RY;
 				INFOPLIST_FILE = Breakpoint/Info.plist;

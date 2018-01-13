@@ -11,5 +11,8 @@ target 'Breakpoint' do
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
+  pod 'FirebaseUI/Google'
+  pod 'FirebaseUI/Facebook'
+  pod 'FBSDKLoginKit'
 
 end

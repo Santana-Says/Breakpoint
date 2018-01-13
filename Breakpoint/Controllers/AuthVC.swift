@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FBSDKLoginKit
 
 class AuthVC: UIViewController {
 
@@ -25,7 +26,31 @@ class AuthVC: UIViewController {
     }
     
     @IBAction func facebookSignInPressed(_ sender: Any) {
-    }
+		let fbLoginManager = FBSDKLoginManager()
+		fbLoginManager.logIn(withReadPermissions: ["public_profile", "email"], from: self) { (result, error) in
+			if let error = error {
+				print("Failed to login: \(error.localizedDescription)")
+				return
+			}
+			
+			guard let accessToken = FBSDKAccessToken.current() else {
+				print("Failed to get access token")
+				return
+			}
+			
+			let credential = FacebookAuthProvider.credential(withAccessToken: accessToken.tokenString)
+			
+			AuthService.instance.loginFbUser(credential: credential, loginComplete: { (complete, loginError) in
+				if complete {
+					self.dismiss(animated: true, completion: nil)
+				} else {
+					print(String(describing: loginError?.localizedDescription))
+				}
+			})
+			
+		}
+		
+	}
     
     @IBAction func googleSignInPressed(_ sender: Any) {
     }
@@ -37,3 +62,4 @@ class AuthVC: UIViewController {
     
 
 }
+

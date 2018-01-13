@@ -35,4 +35,21 @@ class AuthService {
             loginComplete(true, nil)
         }
     }
+	
+	func loginFbUser(credential: AuthCredential, loginComplete: @escaping (_ status: Bool, _ error: Error?) -> ()) {
+		Auth.auth().signIn(with: credential) { (user, error) in
+			if error != nil {
+				loginComplete(false, error)
+				return
+			}
+			
+			guard let user = user else {
+				loginComplete(false, error)
+				return
+			}
+			let userData = ["provider": "Facebook", "email": user.email]
+			DataService.instance.createDBUser(uid: user.uid, userData: userData)
+			loginComplete(true, nil)
+		}
+	}
 }
